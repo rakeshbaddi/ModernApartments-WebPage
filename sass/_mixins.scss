@@ -1,0 +1,12 @@
+@import 'variables';
+
+@mixin shadow-mixin ($value1, $value2){
+    box-shadow: 0 0 $value1 1px $shadow-color;
+    border-radius: $value2;
+}
+
+@mixin grid-mixin ($value) {
+    display: grid;
+    grid-template-columns: repeat($value, 1fr);
+    gap: 10px;
+}

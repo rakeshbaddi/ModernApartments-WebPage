@@ -1,0 +1,53 @@
+@import 'variables';
+
+@import 'mixins';
+
+/* Styling Section 4 (Apartment Plans) */
+
+.section4 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+
+    h2 {
+        font-size: 42px;
+        font-family:$heading-font;
+    }
+
+    ul {
+        display: flex;
+        color: black;
+        list-style: none;
+        font-size: 20px;
+        margin: 50px 150px;
+    }
+
+    li {
+        padding: 30px;
+    }
+}
+
+.light-blue {
+    text-decoration: underline;
+    color: $primary-color;
+}
+
+.plans-div {
+    background-color: white;
+    padding: 20px;
+    @include shadow-mixin(3px, 20px);
+    margin: 50px;
+
+    .spec-img {
+        width: 400px;
+        height: 500px;
+        float: left;
+    }
+
+    .plan-img {
+        width: 400px;
+        padding: 50px;
+        margin: 10px;
+    }
+}

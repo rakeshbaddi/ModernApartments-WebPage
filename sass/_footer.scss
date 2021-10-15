@@ -1,0 +1,67 @@
+@import 'variables';
+
+@import 'mixins';
+
+/* Styling Contact Section*/
+
+.contact {
+    background-color: #2b3b5f;
+    color: white;
+    padding: 50px;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.grid-contact {
+    @include grid-mixin(6);
+
+    @for $i from 1 through 4 {
+        .col#{$i} {
+            background-color: #2b3b5f;
+        }
+    }
+
+    .col1 {
+        grid-column: 2;
+
+        .social-icon {
+            margin-top: 20px;
+            font-size: 36px;
+            margin-left: -5px;
+        }
+    }
+    
+    .col2 {
+        grid-column: 4;
+    }
+    
+    .col3 {
+        grid-column: 5;
+    }
+}
+
+.contact-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+/* Styling Footer Section*/
+
+.footer {
+    background-color: #1c2844;
+    color: white;
+    padding: 20px 50px;
+
+    p {
+        margin-left: 180px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,65 @@
+@import 'variables';
+
+/* Styling Navbar */
+
+body {
+    padding: 75px;
+    color: #b2b4b2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-bar {
+    margin-bottom: 100px;
+    z-index: 1;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: white;
+
+    li {
+        display: inline;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px+6px;  // Using math operators
+    }
+}
+
+.logo {
+    padding: 20px 50px 0 0;
+    margin-right: 10*5px;   // Using math operators
+}
+
+.nav-link {
+    color: $primary-color;
+
+    :hover {
+        color: black;
+    }
+}
+
+.search-box {
+    border: dashed black 1px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0 10px 0 150px;
+    font-size: 14px;
+    width: 120px;
+}
+
+
+.btn-login {
+    background-color: $primary-color;
+    padding: 10px 50px;
+    margin: 0 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+}

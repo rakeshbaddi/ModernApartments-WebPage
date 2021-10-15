@@ -1,0 +1,23 @@
+{
+  "name": "assignment-4-rakesh-baddi",
+  "version": "1.0.0",
+  "description": "1. The goal of this assignment is to learn about CSS positioning, Grid layout, SCSS features like variables, mixins, inheritance, loops, functions, math operations, etc.\r 2. SCSS should be organized in multiple files based on UI features, common elements, and themes.\r 3. These SCSS files should be added to a main.scss file and this should be converted to a .css file using sass.\r 4. The navbar should be sticky/fixed.\r 5. JavaScript is not required. This will not add more points to this assignment.\r 6. Your site should look very close to the attached file.\r 7. You should not use the table element for formatting.\r 8. You should add code documentation using SCSS comments.\r 9. If any asset required for the page is missing then use the below links for placeholder assets.\r 10. Can use any image from https://pixabay.com (Links to an external site.) or any other free image site.\r 11. Can use text from https://www.lipsum.com/.\r 12. Can use icons from material design https://material.io/tools/icons/?style=baseline even if it doesn't match the UI mock.",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall2021/assignment-4-rakesh-baddi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall2021/assignment-4-rakesh-baddi/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall2021/assignment-4-rakesh-baddi#readme"
+}

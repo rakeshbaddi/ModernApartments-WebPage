@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Metadata Elements-->
+        <title>Modern | Home</title>
+        <meta charset="utf-8">
+        <script src="https://kit.fontawesome.com/2552873a4f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="dist/main.css">
+    </head>
+
+    <body>
+        <!-- Navbar-->
+        <section class="nav-bar">
+            <nav>
+                <ul>
+                    <li><img class="logo" src="images/logo.png" alt="brand-logo"></li>
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#featured">Featured</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <li><input type="text" class="search-box" placeholder="Saved Search!" minlength="3" maxlength="10"></li>
+                    <li><i class="fas fa-bell"></i></li>
+                    <li><button type="submit"class="btn-login">LOGIN</button></li>
+                </ul>     
+            </nav>
+        </section>
+
+        <section class="home">
+            <div class="grid">
+                <div class="item-1">
+                    <img src="images/main.png" alt="Main" width="1000" height="700">
+                </div>
+                
+                <div class="title-cell item-2">
+                    <h1>Let's find <span class="span-blue">yours Dreams...</span></h1>
+                    <h3>Building award winning properties across</h3>
+                    <h3>London UK and the world</h3>
+                </div>
+
+                <div class="form-menu item-3">
+                    <button type="submit" class="active-btn">Buy</button>
+                    <button type="submit" class="form-btn">Sell</button>
+                    <button type="submit" class="form-btn">Rent</button>
+                </div>
+
+                <div class="form-cell item-4">
+                    <!-- Form Section-->
+                    <form class="form-field" action="index.html" method="POST" target="_self">
+                        <div class="container-form">
+                            <label for="">City/Street </label> <br>
+                            <input type="text" class="input-style city-style" name="city" placeholder="Enter City" minlength="3" maxlength="15" required> 
+                        </div>
+
+                        <!-- Dropdown Apt Type-->
+                        <div class="container-form">
+                            <label for="">Apartment Type </label> <br>
+                            <select name="apt-type" class="input-style" required>
+                                <option value="deluxe">Deluxe Portion</option>
+                                <option value="double">Double Height</option>
+                                <option value="pentouse">Penthouse</option>
+                                <option value="studio">The Studio</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Dropdown Price Range-->
+                        <div class="container-form">
+                            <label for="">Price Range</label> <br>
+                            <select name="price-range" class="input-style" required>
+                                <option value="default">Min price - Max price</option>
+                                <option value="low">0$ - 9999$</option>
+                                <option value="mid">1000$ - 49999$</option>
+                                <option value="high">50000$ - 199999$</option>
+                            </select>
+                        </div>
+
+                        <div class="btn-form">
+                            <a href="">+ Advance Filter</a>
+                            <button type="submit" class="blue-btn">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>   
+
+        <!-- Using Section and Figure Elements -->
+        <section class="section2">
+            <div class="section-heading">
+                <h2><span class="span-blue">HI, What do you want to your</span> Dream apartment</h2>
+                <p>Select a Apartment type below to begins</p>
+            </div>
+
+            <div class="figures">
+                <figure class="fig-section2">
+                    <img src="images/deluxe.png" alt="Deluxe">
+                    <figcaption>Deluxe Portion<i class="fas fa-check-circle red-icon size-small"></i></figcaption>
+                </figure>
+    
+                <figure class="fig-section2">
+                    <img src="images/double.png" alt="Double">
+                    <figcaption>Double Height</figcaption>
+                </figure>
+    
+                <figure class="fig-section2">
+                    <img src="images/penthouse.png" alt="Penthouse">
+                    <figcaption>Penthouse</figcaption>
+                </figure>
+    
+                <figure class="fig-section2">
+                    <img src="images/studio.png" alt="Studio">
+                    <figcaption>The Studio</figcaption>
+                </figure>
+
+                <div class="sec2-btn">
+                    <button type="submit" class="big-btn">Continue</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Using Typography and Unordered List Elements -->
+        <section class="section3">
+            <div class="section-heading">
+                <h2><span class="span-blue">Featured Apartments</span></h2>
+                <p>Most frequently searched and most popular apartments in the list</p>
+            </div>
+
+            <div class="featured-cards">
+                <div class="featured-list">
+                    <div>
+                        <div class="tags">
+                            <p class="km-tag">1.2 km away</p>
+                            <p class="for-tag">FOR RENT</p>
+                        </div>
+                        <img class="tag-img" src="images/deluxe.png" alt="Knightsbridge" width="300" height="250">
+                    </div>
+                    
+                    <figcaption><i class="fas fa-map-marker-alt red-icon"></i> Knightsbridge</figcaption>
+                    <h2>$2,500</h2>
+                    <h3>Apartment London</h3>
+                    <p>Beautiful huge 1 family house in heart of Westbury</p>
+                    <div class="apt-card">
+                        <div>
+                            <p><span class="lightBlue">2 </span><i class="fas fa-bed"></i></p>
+                            <p>Bedrooms</p>
+                        </div>
+                        <div>
+                            <p><span class="lightBlue">2 </span><i class="fas fa-bath"></i></p>
+                            <p>Bathrooms</p>
+                        </div>
+                        <div>
+                            <p><span class="lightBlue">1776 </span><i class="fas fa-th-large"></i></p>
+                            <p>Square Ft</p>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-arrows-alt margin-right"></i>
+                            <i class="fab fa-gratipay red-icon margin-right"></i>
+                            <i class="fas fa-plus-circle margin-right"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="featured-list">
+                    <div>
+                        <div class="tags">
+                            <p class="km-tag">20 km away</p>
+                            <p class="for-tag">FOR SELL</p>
+                        </div>
+                        <img src="images/double.png" alt="Belmont" width="300" height="250">
+                    </div>
+
+                    <figcaption><i class="fas fa-map-marker-alt red-icon"></i> Belmont Gardens, Chicago</figcaption>
+                    <h2>$30000</h2>
+                    <h3>Studio Apartment</h3>
+                    <p>Renovated with New Furniture and Beautiful huge 1 family house in heart of Westbury</p>
+                    <div class="apt-card">
+                        <div>
+                            <p><span class="lightBlue">3 </span><i class="fas fa-bed"></i></p>
+                            <p>Bedrooms</p>
+                        </div>
+                        <div>
+                            <p><span class="lightBlue">2 </span><i class="fas fa-bath"></i></p>
+                            <p>Bathrooms</p>
+                        </div>
+                        <div>
+                            <p><span class="lightBlue">2500 </span><i class="fas fa-th-large"></i></p>
+                            <p>Square Ft</p>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-arrows-alt margin-right"></i>
+                            <i class="fab fa-gratipay red-icon margin-right"></i>
+                            <i class="fas fa-plus-circle margin-right"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="featured-list">
+                    <div>
+                        <div class="tags">
+                            <p class="km-tag">5.6 km away</p>
+                            <p class="for-tag">FOR RENT</p>
+                        </div>
+                        <img src="images/studio.png" alt="Galliard" width="300" height="250">
+                    </div>
+
+                    <figcaption><i class="fas fa-map-marker-alt red-icon"></i> Timberyard, Birmingham City Center</figcaption>
+                    <h2>$379,000</h2>
+                    <h3>Galliard Homes Apartments</h3>
+                    <p>Fabulous two bedroom duplex apartment will be close to the best city has to offer</p>
+                    <div class="apt-card">
+                        <div>
+                            <p><span class="lightBlue">2 </span><i class="fas fa-bed"></i></p>
+                            <p>Bedrooms</p>
+                        </div>
+                        <div>
+                            <p><span class="lightBlue">1 </span><i class="fas fa-bath"></i></p>
+                            <p>Bathrooms</p>
+                        </div>
+                        <div>
+                            <p><span class="lightBlue">1041 </span><i class="fas fa-th-large"></i></p>
+                            <p>Square Ft</p>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-arrows-alt margin-right"></i>
+                            <i class="fab fa-gratipay red-icon margin-right"></i>
+                            <i class="fas fa-plus-circle margin-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ellips">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>  
+        </section>
+
+        <!-- Using Picture Element and Ordered List -->
+        <section class="section4">
+            <h2 class="span-blue">Apartment Plans</h2>
+            <ul>
+                <li>The Studio</li>
+                <li class="light-blue"><strong>Deluxe Portion</strong></li>
+                <li>Penthouse</li>
+                <li>Top Garden</li>
+                <li>Double Height</li>
+            </ul>
+
+            <div class="plans-div">
+                <img src="images/specs.png" class="spec-img" alt="Spec">
+                <img src="images/plan.png" class="plan-img" alt="Plan">
+            </div>
+        </section>
+
+        <!-- Using Embedded Elements and Typograhpy -->
+        <section class="section5">
+            <div class="grid-video">
+                <div class="grid-1">
+                    <h1>Buy</h1> 
+                    <h1>Dream Apartment</h1>
+                    <h1>In <span class="lightBlue">Prime Location</span></h1>
+                    <button class="big-btn">See All Apartment</button>
+                </div>
+    
+                <div class="grid-3">
+                    <img src="images/union.png" alt="Union">
+                </div>
+
+                <div class="grid-2">
+                    <img src="images/room.png" width="800px" height="700px" alt="Room">
+                </div>
+    
+                <div class="grid-4">
+                    <video controls autoplay loop width="400" preload="auto">
+                        <source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"
+                                type="video/mp4">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact grid-contact">
+            <div class="col1">
+                <img src="images/logo.png" alt="brand-logo">
+                <p>The most beautiful exclusive properties and luxury apartments</p>
+
+                <div class="social-icon">
+                    <i class="fab fa-facebook social-icon"></i>
+                    <i class="fab fa-twitter-square social-icon"></i>
+                    <i class="fab fa-instagram-square social-icon"></i>
+                    <i class="fab fa-telegram social-icon"></i>
+                </div>
+            </div>
+
+            <div class="col2">
+                <p class="contact-heading">Useful Links<p>
+                <a href=""><p>About</p></a>
+                <a href=""><p>Partners</p></a>
+                <a href=""><p>Contact</p></a>
+            </div>
+
+            <div class="col3">
+                <p class="contact-heading">Help?</p>
+                <a href=""><p>FAQ</p></a>
+                <a href=""><p>Terms & Conditions</p></a>
+                <a href=""><p>Policy</p></a>
+                <a href=""><p>Privacy</p></a>
+                </div>
+        </section>
+
+        <!--Footer Section-->
+        <footer class="footer">
+            <p>Copyright &copy; 2021, <a href="http://modern.com">modern.com</a></p>
+        </footer>
+    </body>
+</html>
