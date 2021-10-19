@@ -1,0 +1,480 @@
+/* Styling Navbar */
+body {
+  padding: 75px;
+  color: #b2b4b2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.nav-bar {
+  margin-bottom: 100px;
+  z-index: 1;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: white;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.logo {
+  padding: 20px 50px 0 0;
+  margin-right: 50px;
+}
+
+.nav-link {
+  color: #3987ec;
+}
+.nav-link :hover {
+  color: black;
+}
+
+.search-box {
+  border: dashed black 1px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 0 10px 0 150px;
+  font-size: 14px;
+  width: 120px;
+}
+
+.btn-login {
+  background-color: #3987ec;
+  padding: 10px 50px;
+  margin: 0 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+/* Home Grid */
+.home {
+  margin-bottom: 100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  grid-row: 5;
+}
+.grid .item-1 {
+  grid-row: 1/6;
+  grid-column: 2/5;
+}
+.grid .item-2 {
+  grid-row: 2;
+  grid-column: 1/3;
+}
+.grid .item-3 {
+  grid-row: 3;
+  grid-column: 1;
+}
+.grid .item-4 {
+  grid-row: 4;
+  grid-column: 1/5;
+}
+
+.title-cell {
+  background-color: white;
+  box-shadow: 0 0 3px 1px #e4dfdf;
+  border-radius: 40px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.title-cell h1 {
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  color: #3987ec;
+  padding: 0 71px 0 10px;
+  margin-bottom: 30px;
+}
+.title-cell h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: black;
+  line-height: 0;
+  margin-bottom: 20px;
+  padding: 0 20px 0 10px;
+}
+
+.span-blue {
+  color: #275d8f;
+}
+
+/* Styling Form */
+.form-menu {
+  max-width: fit-content;
+}
+
+.form-btn, .active-btn {
+  background-color: white;
+  padding: 10px 20px;
+  margin: 30px 2px 10px 2px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form-cell {
+  box-shadow: 0 0 3px 1px #e4dfdf;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 20px;
+}
+.form-cell .form-field {
+  display: flex;
+  padding: 20px 0;
+}
+.form-cell .form-field .container-form {
+  margin: 10px 60px 10px 0;
+}
+
+.active-btn {
+  /*! Using inheritance/extend */
+  background-color: #3987ec;
+  color: white;
+}
+
+.input-style {
+  border: none;
+  margin-top: 10px;
+  color: #0492d4;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.input-style::placeholder {
+  color: #3987ec;
+}
+
+.city-style {
+  max-width: 100px;
+}
+
+.btn-form {
+  margin: 18px 0px 18px 55px;
+}
+.btn-form a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #3987ec;
+}
+
+.blue-btn {
+  background-color: #3987ec;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+/* Styling Section 2*/
+.section2 {
+  margin-bottom: 100px;
+}
+
+.section-heading {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-heading h2 {
+  text-align: center;
+  color: #3987ec;
+  font-size: 42px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.section-heading p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.size-small {
+  margin: -5px 0;
+  float: right;
+  font-size: 18px;
+}
+
+.fig-section2 {
+  float: left;
+  box-shadow: 0 0 20px 1px #e4dfdf;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 60px 35px;
+}
+.fig-section2 img {
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+.fig-section2 figcaption {
+  text-align: center;
+}
+
+.sec2-btn {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.big-btn {
+  background-color: #275d8f;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 20px 100px;
+  border-radius: 10px;
+}
+
+/* Styling Section 3 (Featured Apartmens) */
+.section3 {
+  margin-bottom: 50px;
+}
+
+.featured-list {
+  float: left;
+  box-shadow: 0 0 20px 1px #e4dfdf;
+  border-radius: 20px;
+  padding: 10px;
+  max-width: min-content;
+  max-height: min-content;
+  margin: 20px;
+}
+.featured-list img {
+  border-radius: 20px;
+  width: 360px;
+  height: 200px;
+}
+.featured-list h2 {
+  color: #3987ec;
+}
+.featured-list h3 {
+  color: black;
+}
+
+.tags {
+  position: absolute;
+}
+.tags .km-tag {
+  background: gray;
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.tags .for-tag {
+  background: #55b855;
+  display: inline-block;
+  margin-left: 160px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.red-icon {
+  color: #e96048;
+}
+
+.apt-card > div {
+  background-color: #f8f8f8;
+  padding: 0 5px;
+  font-size: 15px;
+  line-height: 0;
+  float: left;
+}
+
+.icons {
+  margin: 15px 10px;
+}
+.icons i {
+  font-size: 24px;
+}
+
+i {
+  padding: 2px;
+  font-size: 20px;
+}
+
+.ellips {
+  width: min-content;
+  margin: 0 auto;
+}
+.ellips i {
+  font-size: 96px;
+  color: #ebebeb;
+}
+
+/* Styling Section 4 (Apartment Plans) */
+.section4 {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+.section4 h2 {
+  font-size: 42px;
+  font-family: "Times New Roman", Times, serif;
+}
+.section4 ul {
+  display: flex;
+  color: black;
+  list-style: none;
+  font-size: 20px;
+  margin: 50px 150px;
+}
+.section4 li {
+  padding: 30px;
+}
+
+.light-blue {
+  text-decoration: underline;
+  color: #3987ec;
+}
+
+.plans-div {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 3px 1px #e4dfdf;
+  border-radius: 20px;
+  margin: 50px;
+}
+.plans-div .spec-img {
+  width: 400px;
+  height: 500px;
+  float: left;
+}
+.plans-div .plan-img {
+  width: 400px;
+  padding: 50px;
+  margin: 10px;
+}
+
+/* Styling Section-5 (Video) */
+.section5 {
+  padding: 50px;
+}
+.section5 h1 {
+  color: #275d8f;
+  font-size: 42px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.grid-video {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-row: 6;
+  padding-top: 50px;
+}
+.grid-video .grid-1 {
+  grid-row: 3/5;
+  grid-column: 1/4;
+}
+.grid-video .grid-2 {
+  top: -50px;
+  right: -40px;
+  grid-row: 2/7;
+  grid-column: 4/9;
+}
+.grid-video .grid-3 {
+  grid-row: 1/4;
+  grid-column: 4/7;
+}
+.grid-video .grid-4 {
+  grid-row: 4/7;
+  grid-column: 3/5;
+}
+
+.lightBlue {
+  color: #3987ec;
+}
+
+video {
+  margin: 100px;
+  border-radius: 30px;
+}
+
+/* Styling Contact Section*/
+.contact {
+  background-color: #2b3b5f;
+  color: white;
+  padding: 50px;
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.grid-contact {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+.grid-contact .col1 {
+  background-color: #2b3b5f;
+}
+.grid-contact .col2 {
+  background-color: #2b3b5f;
+}
+.grid-contact .col3 {
+  background-color: #2b3b5f;
+}
+.grid-contact .col4 {
+  background-color: #2b3b5f;
+}
+.grid-contact .col1 {
+  grid-column: 2;
+}
+.grid-contact .col1 .social-icon {
+  margin-top: 20px;
+  font-size: 36px;
+  margin-left: -5px;
+}
+.grid-contact .col2 {
+  grid-column: 4;
+}
+.grid-contact .col3 {
+  grid-column: 5;
+}
+
+.contact-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+/* Styling Footer Section*/
+.footer {
+  background-color: #1c2844;
+  color: white;
+  padding: 20px 50px;
+}
+.footer p {
+  margin-left: 180px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
